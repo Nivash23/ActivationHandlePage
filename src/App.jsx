@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import '../style/App.css'
 
 function ActivationPage() {
   const [input, setInput] = useState({
