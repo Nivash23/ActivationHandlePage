@@ -9,7 +9,7 @@ function ActivationPage() {
     const ActivationBody = {
       ActivationToken: input.Activationcode
     };
-    const response = await fetch('http://127.0.0.1:3005/api/Activation/',
+    const response = await fetch('https://backendforurlshortender.onrender.com/api/Activation/',
       {
         method: 'POST',
         headers: {
